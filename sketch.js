@@ -49,7 +49,7 @@ function setup(){
     background1.scale = 0.54;
 
     //Creating the Mario character
-    mario = createSprite(80,displayHeight-150,40,50);
+    mario = createSprite(150,displayHeight-150,40,50);
     mario.addAnimation("MarioWalking",marioImg);
     mario.scale = 0.35;
 
